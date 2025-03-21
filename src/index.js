@@ -18,7 +18,7 @@ import {
   Mesh,
   BackSide,
   CanvasTexture,
-} from "https://unpkg.com/three@0.158.0/build/three.module.js";
+} from "THREE";
 import OrbitControls from "three-orbitcontrols";
 import GLTFLoader from "three-gltf-loader";
 
