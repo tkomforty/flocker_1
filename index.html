@@ -8,6 +8,10 @@
 
   <body>
     <div id="scene-container"></div>
+    <script type="module">
+  import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.157.0/build/three.module.js';
+  window.THREE = THREE; // Make THREE available globally
+</script>
     <script type="module" src="src/index.js"></script>
   </body>
 </html>
